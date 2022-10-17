@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.col-mid-6{
+    margin-top: 150px !important;
+    padding: 20px !important;
+}
+
+button{
+    margin-top: -40px !important;
+    float: left;
+}
+
+h1{
+    font-weight: bolder !important;
+    margin: 10px !important;
+}
+
+input{
+    margin-top: 20px !important;
+}
+
+.success{
+    border: 2px solid green !important;
+}
+
+.error{
+    border: 2px solid red !important;
+}
+
+small{
+    color: red;
+    font-weight: bold;
+    margin: 1px;
+    float: left;
+}
