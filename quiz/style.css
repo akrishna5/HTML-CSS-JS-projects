@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.col-mid-7{
+    margin-top: 150px !important;
+    background-color: white;
+    padding: 20px !important;
+}
+
+h1{
+    font-weight: bolder !important;
+    text-align: center;
+    background-color: violet;
+    color: white;
+}
+
+input,label{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}

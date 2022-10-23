@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+            height: 60vh;
+        }
+
+        .col-mid-6 {
+            border: 5px solid yellowgreen;
+            margin-top: 100px !important;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="http://google.co.in">
+        <!--after clicking on "submit form" button, the webpage will redirect to "google.com"-->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-mid-6 text-center">
+
+                    <h1>Survey Form</h1>
+                    Name:
+                    <input type="text" name="Username" size=35 maxlength=35 value="">
+                    </br></br>
+                    Place:
+                    <input type="text" name="Place" size=35 maxlength=35 value="">
+                    </br> </br>
+                    Age:
+                    <input type="number" name="Age" size=10 maxlength=10 value="">
+                    </br> </br>
+                    How often do you watch movie?
+                    <p>
+                        <input type="radio" name="exe" value=1>Extremely
+                        <input type="radio" name="exe" value=2>Moderately
+                        <input type="radio" name="exe" value=2>Slightly
+                        <input type="radio" name="exe" value=2>Not at all
+                    </p>
+                    How many hours do you spend watching TV?
+                    <p>
+                        <input type="radio" name="exe" value=1>0-1
+                        <input type="radio" name="exe" value=2>2-3
+                        <input type="radio" name="exe" value=2>4-5
+                        <input type="radio" name="exe" value=2>More than 7
+                    </p>
+                    What do you like to do other than watching Movie/TV?
+                    <p>
+                        <input type="checkbox" name="Books">Reading Books
+                        <input type="checkbox" name="Web">Social Media Apps
+                        <input type="checkbox" name="Phone">Video Games
+                        <input type="checkbox" name="Magazines">Magazines
+                    </p>
+                    What genre of movies do you like?
+                    <select name="moviepref">
+                        <option value=1 selected="true">Comedy
+                        <option value=2>Romance
+                        <option value=3>Thriller
+                        <option value=4>Horror
+                        <option value=5>Biopic
+                    </select>
+                    <br><br>
+                    <button class="btn-warning">SUBMIT FORM</button>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
