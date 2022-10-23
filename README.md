@@ -6,4 +6,4 @@
 4. Navigation Bar
 5. Quiz
 6. Survey Form
-7. 
+7. Covid Stats
