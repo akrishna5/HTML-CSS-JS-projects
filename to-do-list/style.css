@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    font-weight: bolder !important;
+    margin: 20px !important;
+}
+
+.col-mid-5{
+    margin-top: 150px !important;
+}
+
+input{
+    display: inline !important;
+    width: 75% !important;
+    border: 2px solid black !important;
+}
+
+button{
+    margin-left: 10px !important;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    display: inline;
+}
+
+i{
+    cursor: pointer;
+    margin: 10px;
+    color: red;
+}
