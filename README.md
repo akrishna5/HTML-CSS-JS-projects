@@ -7,3 +7,4 @@
 5. Quiz
 6. Survey Form
 7. Covid Stats
+8. Meals
