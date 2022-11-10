@@ -9,3 +9,6 @@
 7. Covid Stats
 8. Meals
 9. To Do List
+10. Animations:
+      i) Typed JS
+      ii) Animate On Scroll (AOS)
